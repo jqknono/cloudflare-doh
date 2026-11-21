@@ -9,8 +9,12 @@
 		"test": "vitest"
 	},
 	"devDependencies": {
-		"@cloudflare/vitest-pool-workers": "^0.23.0",
-		"vitest": "~3.0.7",
-		"wrangler": "^3.114.1"
+		"@cloudflare/vitest-plugin": "^1.8.5",
+		"vitest": "^4.1.12",
+		"wrangler": "^4.165.0"
+	},
+	"allowScripts": {
+		"esbuild@0.28.2": true,
+		"workerd@1.20261118.1": true
 	}
 }
